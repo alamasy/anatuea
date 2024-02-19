@@ -12,10 +12,10 @@ export default function TaskManager () {
         setIsDragged(true)
     }
 
-    // const handleDrag = () => {
-    //     console.log("dragged");
-    //     setIsDragged(true)
-    // }
+    const handleDragOver = (e) => {
+        e.preventDefault()
+        alert("hello")
+    }
 
     return (
         <div className="board">
@@ -33,7 +33,7 @@ export default function TaskManager () {
                     <p className="task" draggable="true">Belajar</p>
                 </div>
 
-                <div className="swim-lane">
+                <div className="swim-lane" onDragOver={handleDragOver}>
                     <h2>DOING</h2>
 
                     <p className="task" draggable="true">Belajar</p>
