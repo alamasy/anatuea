@@ -1,0 +1,28 @@
+table {
+	/* font-family: arial, sans-serif; */
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	/* border: 1px solid #dddddd; */
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	text-transform: uppercase;
+	text-shadow: 1px 1px white;
+	color: #0b1215;
+}
+
+tr:hover:not(:nth-child(1)) {
+	opacity: 0.8;
+	color: black;
+}
+
+tr:nth-child(odd) {
+	background-color: #ffcf81;
+	/* color: white; */
+}

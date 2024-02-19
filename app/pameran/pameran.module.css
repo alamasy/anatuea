@@ -1,0 +1,17 @@
+.layout {
+	display: flex;
+	flex-direction: column;
+
+	gap: 12px;
+
+	width: 100%;
+
+	padding-inline: 34px;
+	margin-top: 34px;
+}
+
+.titlePage {
+	text-align: center;
+	margin-bottom: 12px;
+	color: #0b1215;
+}
