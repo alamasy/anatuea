@@ -1,4 +1,5 @@
 import { capitalize } from "../lib/utils";
+import Button from "./Button";
 import "./table.css";
 
 const dataPameran = [
@@ -58,58 +59,11 @@ export default function Table () {
                         <td>{capitalize(el.namaPameran)}</td>
                         <td>{capitalize(el.exhibitor)}</td>
                         <td>{capitalize(el.isDone ? "selesai" : "belum selesai")}</td>
-                        <td>Tobmbol Action</td>
+                        <td><Button>Invoice</Button></td>
                     </tr>
                 ))
             }
-            <tr>
-                <td>1</td>
-                <td>JOB 1</td>
-                <td>PAMERAN 1</td>
-                <td>EXHIBITOR 1</td>
-                <td>LIHAT</td>
-                <td>Tobmbol Action</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-                <td>EXHIBITOR 1</td>
-                <td>LIHAT</td>
-                <td>Tobmbol Action</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Roland Mendel</td>
-                <td>Austria</td>
-                <td>EXHIBITOR 1</td>
-                <td>LIHAT</td>
-                <td>Tobmbol Action</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Helen Bennett</td>
-                <td>UK</td>
-                <td>EXHIBITOR 1</td>
-                <td>LIHAT</td>
-                <td>Tobmbol Action</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Yoshi Tannamuri</td>
-                <td>Canada</td>
-                <td>EXHIBITOR 1</td>
-                <td>LIHAT</td>
-                <td>Tobmbol Action</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Giovanni Rovelli</td>
-                <td>Italy</td>
-                <td>EXHIBITOR 1</td>
-                <td>LIHAT</td>
-                <td>Tobmbol Action</td>
-            </tr>
+
         </table>
     );
 }

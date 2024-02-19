@@ -1,5 +1,9 @@
+import Title from "../components/Title";
+
 export default function News () {
     return (
-        <div>News Pages</div>
+        <>
+            <Title>News Pages</Title>
+        </>
     )
 }

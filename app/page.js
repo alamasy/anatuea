@@ -1,8 +1,9 @@
+import Title from "./components/Title";
 
 export default function Home () {
   return (
-    <main>
-      <h1>Home Page</h1>
-    </main>
+    <>
+      <Title>Home Page</Title>
+    </>
   );
 }

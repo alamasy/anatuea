@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import "./task.css"
+import Title from "../components/Title";
 
 export default function TaskManager () {
     const [ isDragged, setIsDragged ] = useState(false)
@@ -19,6 +20,7 @@ export default function TaskManager () {
 
     return (
         <div className="board">
+            <Title>Task Manager</Title>
             <div className="todo-form">
                 <input type="text" placeholder="New Todo" />
                 <button type="submit">Add</button>

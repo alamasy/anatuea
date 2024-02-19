@@ -36,3 +36,15 @@ a {
 	display: flex;
 	flex-direction: column;
 }
+
+.layout {
+	display: flex;
+	flex-direction: column;
+
+	gap: 12px;
+
+	width: 100%;
+
+	padding-inline: 34px;
+	margin-top: 34px;
+}
