@@ -12,6 +12,7 @@ export default function Home() {
 			<p>riang</p>
 			<p>serta</p>
 			<p>gembira</p>
+			<p>karena</p>
 		</>
 	);
 }
