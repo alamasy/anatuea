@@ -13,6 +13,7 @@ export default function Home() {
 			<p>serta</p>
 			<p>gembira</p>
 			<p>karena</p>
+			<p>aku</p>
 		</>
 	);
 }
