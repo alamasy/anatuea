@@ -5,6 +5,7 @@ export default function Home() {
 		<>
 			<Title>Home Page</Title>
 			<p>aku</p>
+			<p>adalah</p>
 		</>
 	);
 }
