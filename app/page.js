@@ -9,6 +9,7 @@ export default function Home() {
 			<p>anak</p>
 			<p>gembala</p>
 			<p>selalu</p>
+			<p>riang</p>
 		</>
 	);
 }
