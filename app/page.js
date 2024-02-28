@@ -7,6 +7,7 @@ export default function Home() {
 			<p>aku</p>
 			<p>adalah</p>
 			<p>anak</p>
+			<p>gembala</p>
 		</>
 	);
 }
