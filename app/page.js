@@ -10,6 +10,7 @@ export default function Home() {
 			<p>gembala</p>
 			<p>selalu</p>
 			<p>riang</p>
+			<p>serta</p>
 		</>
 	);
 }
