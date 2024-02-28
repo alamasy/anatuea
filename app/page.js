@@ -14,6 +14,7 @@ export default function Home() {
 			<p>gembira</p>
 			<p>karena</p>
 			<p>aku</p>
+			<p>rajin</p>
 		</>
 	);
 }
