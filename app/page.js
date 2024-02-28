@@ -11,6 +11,7 @@ export default function Home() {
 			<p>selalu</p>
 			<p>riang</p>
 			<p>serta</p>
+			<p>gembira</p>
 		</>
 	);
 }
