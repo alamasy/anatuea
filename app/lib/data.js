@@ -24,26 +24,3 @@ export const pameran = [
 		status: false,
 	},
 ];
-
-export const attrFormPameran = [
-	{
-		id: 1,
-		label: "Ref",
-		placeholder: "Masukkan nama referensi pameran",
-	},
-	{
-		id: 2,
-		label: "Venue",
-		placeholder: "Masukkan nama venue",
-	},
-	{
-		id: 3,
-		label: "Nomor B/L",
-		placeholder: "Masukkan nomor Bill of Lading",
-	},
-	{
-		id: 4,
-		label: "Exhibitor",
-		placeholder: "Masukkan nama Exhibitor",
-	},
-];

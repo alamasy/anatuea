@@ -1,0 +1,23 @@
+[
+	{
+		"universitas": "Universitas Brawijaya",
+		"info": {
+			"website": "[^1^][5](https://ub.ac.id/)",
+			"didirikan": "1963"
+		}
+	},
+	{
+		"universitas": "Universitas Indonesia",
+		"info": {
+			"website": "[^2^][6](http://www.ui.ac.id/)",
+			"didirikan": "1849"
+		}
+	},
+	{
+		"universitas": "Universitas Gadjah Mada",
+		"info": {
+			"website": "[^3^][7](https://ugm.ac.id/)",
+			"didirikan": "1949"
+		}
+	}
+]
