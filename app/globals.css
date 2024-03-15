@@ -48,6 +48,7 @@ a {
 	gap: 12px;
 
 	width: 100%;
+	overflow: hidden;
 
 	padding-inline: 34px;
 	margin-top: 34px;
